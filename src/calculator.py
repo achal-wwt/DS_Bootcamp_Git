@@ -13,10 +13,8 @@ class Calculator:
         return self.a * self.b
 
     def divide_achal(self):
-        # TODO:- Add your code in the below function
-        # check for divide by zero error, using assert statements
-        # implement the division operation
-        return
+        # my implementation
+        return self.a / self.b
 
     def divide_PUT_YOUR_NAME_HERE(self):
         # TODO:- Add your code in the below function
