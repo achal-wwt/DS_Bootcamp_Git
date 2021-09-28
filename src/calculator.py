@@ -15,8 +15,9 @@ class Calculator:
     def divide_achal(self):
         return self.a / self.b
 
-    def divide_PUT_YOUR_NAME_HERE(self):
-        # TODO:- Add your code in the below function
-        # check for divide by zero error, using assert statements
-        # implement the division operation
-        return
+    def divide_anonymous(self):
+        try:
+            return self.a / self.b
+        except ZeroDivisionError:
+            print("[Error] Denominator can't be Zero in division!")
+
